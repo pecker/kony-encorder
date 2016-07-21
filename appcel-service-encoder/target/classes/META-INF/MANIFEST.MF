@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Built-By: Administrator
+Build-Jdk: 1.6.0_13
+Class-Path: . lib/pointdew-common-1.0.0-SNAPSHOT.jar lib/ant-1.9.3.jar
+  lib/ant-launcher-1.9.3.jar lib/jdom-2.0.2.jar lib/jakarta-oro-1.1.ja
+ r lib/commons-lang-2.6.jar lib/chardet-1.0.jar lib/appcel-common-1.0.
+ 0-SNAPSHOT.jar lib/poi-3.9.jar lib/poi-ooxml-3.9.jar lib/poi-ooxml-sc
+ hemas-3.9.jar lib/xmlbeans-2.3.0.jar lib/stax-api-1.0.1.jar lib/poi-s
+ cratchpad-3.9.jar lib/poi-contrib-3.6.jar lib/commons-httpclient-3.1.
+ jar lib/velocity-1.7.jar lib/mail-1.4.7.jar lib/activation-1.1.jar li
+ b/pdfbox-0.7.3.jar lib/fontbox-0.1.0.jar lib/jempbox-0.2.0.jar lib/bc
+ mail-jdk14-136.jar lib/bcprov-jdk14-136.jar lib/htmlparser-1.6.jar li
+ b/kaptcha-2.3.2.jar lib/edtFTPj-2.4.0.jar lib/pointdew-license-1.0.0-
+ SNAPSHOT.jar lib/appcel-kernel-mybatis-1.0.0-SNAPSHOT.jar lib/spring-
+ jdbc-4.2.5.RELEASE.jar lib/appcel-config-1.0.0-SNAPSHOT.jar lib/appce
+ l-facade-encoder-1.0.0-SNAPSHOT.jar lib/mysql-connector-java-5.1.30.j
+ ar lib/mybatis-3.3.1.jar lib/mybatis-spring-1.2.5.jar lib/antlr-2.7.7
+ .jar lib/aopalliance-1.0.jar lib/aspectjweaver-1.7.4.jar lib/aspectjr
+ t-1.7.4.jar lib/cglib-3.2.2.jar lib/asm-5.0.4.jar lib/json-lib-2.4-jd
+ k15.jar lib/ognl-3.1.4.jar lib/javassist-3.20.0-GA.jar lib/oro-2.0.8.
+ jar lib/commons-beanutils-1.9.1.jar lib/commons-codec-1.10.jar lib/co
+ mmons-collections-3.2.1.jar lib/commons-digester-2.1.jar lib/commons-
+ fileupload-1.3.1.jar lib/commons-io-2.4.jar lib/commons-lang3-3.4.jar
+  lib/commons-logging-1.1.1.jar lib/commons-validator-1.5.1.jar lib/do
+ m4j-1.6.1.jar lib/xml-apis-1.0.b2.jar lib/ezmorph-1.0.6.jar lib/javas
+ sist-3.12.1.GA.jar lib/log4j-1.2.17.jar lib/slf4j-api-1.7.5.jar lib/s
+ lf4j-log4j12-1.7.5.jar lib/fastjson-1.2.6.jar lib/spring-aop-4.2.5.RE
+ LEASE.jar lib/spring-aspects-4.2.5.RELEASE.jar lib/spring-beans-4.2.5
+ .RELEASE.jar lib/spring-context-4.2.5.RELEASE.jar lib/spring-expressi
+ on-4.2.5.RELEASE.jar lib/spring-context-support-4.2.5.RELEASE.jar lib
+ /spring-core-4.2.5.RELEASE.jar lib/spring-jms-4.2.5.RELEASE.jar lib/s
+ pring-messaging-4.2.5.RELEASE.jar lib/spring-orm-4.2.5.RELEASE.jar li
+ b/spring-oxm-4.2.5.RELEASE.jar lib/spring-tx-4.2.5.RELEASE.jar lib/ac
+ tivemq-all-5.13.2.jar lib/activemq-pool-5.13.2.jar lib/activemq-jms-p
+ ool-5.13.2.jar lib/geronimo-jms_1.1_spec-1.1.1.jar lib/activemq-clien
+ t-5.13.2.jar lib/hawtbuf-1.11.jar lib/geronimo-j2ee-management_1.1_sp
+ ec-1.0.1.jar lib/geronimo-jta_1.0.1B_spec-1.0.1.jar lib/commons-pool2
+ -2.4.2.jar lib/druid-1.0.18.jar lib/dubbo-2.5.3.jar lib/netty-3.2.5.F
+ inal.jar lib/zookeeper-3.4.5.jar lib/jline-0.9.94.jar lib/zkclient-0.
+ 3.jar lib/fastDFS-client-1.24.jar lib/quartz-2.2.3.jar lib/c3p0-0.9.1
+ .2.jar lib/quartz-jobs-2.2.3.jar
+Main-Class: com.alibaba.dubbo.container.Main
+Created-By: Maven Integration for Eclipse
+

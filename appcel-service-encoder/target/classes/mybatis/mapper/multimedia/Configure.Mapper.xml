@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.appcel.core.encoder.dao.impl.ConfigureDaoImpl">
+
+	<sql id="table"> tb_encoder_configure </sql>
+
+	<insert id="insert" parameterType="ConfigureInfo" keyProperty="id"	useGeneratedKeys="true">
+		insert into	<include refid="table" /> 
+		(KEYX, VERSIONX, NAME, VALUE, REMARK, CREATETIME)
+		values (
+		#{key, jdbcType=VARCHAR}, 
+		0, 
+		#{name}, 
+		#{value},
+		#{remark}, 		
+		#{createTime,jdbcType=TIMESTAMP}
+		)
+	</insert>
+
+	<!-- 更新version+1 实现乐观锁 -->
+	<update id="update" parameterType="ConfigureInfo">
+		update <include refid="table" />
+		<set>
+			VERSIONX = #{version}+1 ,
+			NAME = #{name}, 
+			VALUE = #{value},
+			REMARK = #{remark}, 
+			CREATETIME = #{createTime,jdbcType=TIMESTAMP}
+		</set>
+		<where>
+			KEYX = #{key} and VERSIONX = #{version}
+		</where>
+	</update>
+
+	<select id="findByKey" parameterType="String" resultType="ConfigureInfo">
+		select * from <include refid="table" />	where KEYX = #{key}
+	</select>
+
+	<select id="listAll" resultType="ConfigureInfo">
+		select * from <include refid="table" />
+	</select>
+		
+  	<delete id="deleteByKey" parameterType="String">
+    	delete from <include refid="table"/> where KEYX = #{key}
+  	</delete>	
+  	
+</mapper>
